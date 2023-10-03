@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Float opakování</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+     
+
+        #top {
+            background-color: bisque;
+        }
+
+        #bottom {
+            background-color: cadetblue;
+        }
+        .dva {
+            width: 50%;
+            float: left;
+        }
+
+        .tri {
+            width: 33.33%;
+            float: left;
+        }
+
+        .neobtekat {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="top">
+        <div class="dva">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem perferendis error obcaecati, quam
+                deleniti sequi voluptates aspernatur necessitatibus reprehenderit maxime blanditiis vitae at sunt quas
+                natus! Unde quisquam non similique.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem perferendis error obcaecati, quam
+                deleniti sequi voluptates aspernatur necessitatibus reprehenderit maxime blanditiis vitae at sunt quas
+                natus! Unde quisquam non similique.</p>
+        </div>
+        <div class="dva">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos officiis nisi? Possimus excepturi
+                quisquam aut dolore natus esse quaerat, nihil odit aliquid sequi aliquam autem nisi vero? Blanditiis,
+                eius?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos officiis nisi? Possimus excepturi
+                quisquam aut dolore natus esse quaerat, nihil odit aliquid sequi aliquam autem nisi vero? Blanditiis,
+                eius?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos officiis nisi? Possimus excepturi
+                quisquam aut dolore natus esse quaerat, nihil odit aliquid sequi aliquam autem nisi vero? Blanditiis,
+                eius?</p>
+        </div>
+        <div class="neobtekat"></div>
+    </div>
+
+
+    <div id="bottom">
+        <div class="tri">
+            <p>Procesor</p>
+        </div>
+        <div class="tri">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos officiis nisi? Possimus excepturi
+                quisquam aut dolore natus esse quaerat, nihil odit aliquid sequi aliquam autem nisi vero? Blanditiis,
+                eius?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos officiis nisi? Possimus excepturi
+                quisquam aut dolore natus esse quaerat, nihil odit aliquid sequi aliquam autem nisi vero? Blanditiis,
+                eius?</p>
+        </div>
+        <div class="tri">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolorum mollitia libero natus aperiam
+                iusto unde repudiandae. Unde, doloribus. Unde necessitatibus nostrum, perspiciatis blanditiis eaque
+                harum possimus a. Minima, blanditiis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolorum mollitia libero natus aperiam
+                iusto unde repudiandae. Unde, doloribus. Unde necessitatibus nostrum, perspiciatis blanditiis eaque
+                harum possimus a. Minima, blanditiis.</p>
+        </div>
+        <div class="neobtekat"></div>
+    </div>
+   
+</body>
+
+</html>
